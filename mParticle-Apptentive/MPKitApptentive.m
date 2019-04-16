@@ -76,6 +76,8 @@ NSString * const ApptentiveConversationStateDidChangeNotification = @"Apptentive
         execStatus = [[MPKitExecStatus alloc] initWithSDKCode:[[self class] kitCode] returnCode:MPKitReturnCodeRequirementsNotMet];
         return execStatus;
     }
+	
+	_configuration = configuration;
 
     [self start];
 
