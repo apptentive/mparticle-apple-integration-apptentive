@@ -3,19 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D37EFA8724F430580091B75B /* Apptentive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB695FB21F5F549A00A7F4CF /* Apptentive.framework */; platformFilter = ios; };
 		DB7E05A61CB819D300967FDF /* MPKitApptentive.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7E05A41CB819D300967FDF /* MPKitApptentive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB7E05A71CB819D300967FDF /* MPKitApptentive.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E05A51CB819D300967FDF /* MPKitApptentive.m */; };
 		DB9401701CB703F2007ABB18 /* mParticle_Apptentive.h in Headers */ = {isa = PBXBuildFile; fileRef = DB94016F1CB703F2007ABB18 /* mParticle_Apptentive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB94017A1CB70C58007ABB18 /* mParticle_Apple_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9401781CB70C58007ABB18 /* mParticle_Apple_SDK.framework */; };
 		EF233800263F3F0F004B1C55 /* mParticle_ApptentiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2337FF263F3F0F004B1C55 /* mParticle_ApptentiveTests.m */; };
 		EF233802263F3F0F004B1C55 /* mParticle_Apptentive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB94016C1CB703F2007ABB18 /* mParticle_Apptentive.framework */; };
 		EF23381E263F48B2004B1C55 /* MPKitApptentiveUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EF23381C263F48B2004B1C55 /* MPKitApptentiveUtils.h */; };
 		EF23381F263F48B2004B1C55 /* MPKitApptentiveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF23381D263F48B2004B1C55 /* MPKitApptentiveUtils.m */; };
+		EFA481AF26B8DCE200C20F04 /* MPKitApptentive.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E05A51CB819D300967FDF /* MPKitApptentive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,7 +179,7 @@
 				};
 			};
 			buildConfigurationList = DB9401661CB703F2007ABB18 /* Build configuration list for PBXProject "mParticle-Apptentive" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7E05A71CB819D300967FDF /* MPKitApptentive.m in Sources */,
+				EFA481AF26B8DCE200C20F04 /* MPKitApptentive.m in Sources */,
 				EF23381F263F48B2004B1C55 /* MPKitApptentiveUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
