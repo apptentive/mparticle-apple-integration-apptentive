@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = "https://www.mparticle.com"
     s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
     s.author           = { "mParticle" => "support@mparticle.com" }
-    s.source           = { :git => "https://github.com/apptentive/mparticle-apple-integration-apptentive.git", :branch => "apptentivekit"}
+    s.source           = { :git => "https://github.com/apptentive/mparticle-apple-integration-apptentive.git", :branch => "apptentivekit", :tag => "8.0.4"}
    
     s.social_media_url = "https://twitter.com/mparticle"
     s.swift_version = "5.3"
