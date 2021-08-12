@@ -5,17 +5,6 @@
 #import "mParticle.h"
 #endif
 
-#if defined(__has_include) && __has_include(<ApptentiveKit/ApptentiveKit.h>)
-#import <ApptentiveKit/ApptentiveKit.h>
-#elif defined(__has_include) && __has_include(<Apptentive/apptentive-ios-umbrella.h>)
-#import <Apptentive/apptentive-ios-umbrella.h>
-#else
-#import "ApptentiveKit.h"
-#import "ApptentiveStyleSheet.h"
-#endif
-
-
-
 @interface MPKitApptentive : NSObject <MPKitProtocol>
 
 @property (nonatomic, strong, nonnull) NSDictionary *configuration;

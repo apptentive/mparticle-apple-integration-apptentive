@@ -1,6 +1,12 @@
 #import "MPKitApptentive.h"
 #import "MPKitApptentiveUtils.h"
-@import Apptentive;
+
+#if defined(__has_include) && __has_include(<ApptentiveKit/ApptentiveKit.h>)
+#import <ApptentiveKit/ApptentiveKit.h>
+#else
+#import "ApptentiveKit.h"
+#endif
+
 
 static NSString * const apptentiveAppKeyKey = @"apptentiveAppKey";
 static NSString * const apptentiveAppSignatureKey = @"apptentiveAppSignature";
