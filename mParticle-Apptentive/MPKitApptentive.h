@@ -33,10 +33,3 @@
 + (BOOL)registerSDK;
 
 @end
-
-@interface Apptentive ()
-
-- (void)setMParticleId:(NSString *_Nonnull)mParticleId;
-
-@end
-
