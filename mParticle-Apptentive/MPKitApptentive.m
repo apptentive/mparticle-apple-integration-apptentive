@@ -1,5 +1,6 @@
 #import "MPKitApptentive.h"
 #import "MPKitApptentiveUtils.h"
+@import Apptentive;
 
 static NSString * const apptentiveAppKeyKey = @"apptentiveAppKey";
 static NSString * const apptentiveAppSignatureKey = @"apptentiveAppSignature";
