@@ -1,10 +1,10 @@
 #import "MPKitApptentive.h"
 #import "MPKitApptentiveUtils.h"
 
-#if defined(__has_include) && __has_include(<ApptentiveKit/ApptentiveKit.h>)
-#import <ApptentiveKit/ApptentiveKit.h>
+#if defined(__has_include) && __has_include(<ApptentiveKit/ApptentiveKit-Swift.h>)
+#import <ApptentiveKit/ApptentiveKit-Swift.h>
 #else
-#import "ApptentiveKit.h"
+#import "ApptentiveKit-Swift.h"
 #endif
 
 
