@@ -164,10 +164,12 @@ static NSString * _apptentiveSignature = nil;
 
         case MPILogLevelDebug:
             apptentiveConfig.logLevel = ApptentiveLogLevelDebug;
+            apptentiveConfig.shouldSanitizeLogMessages = false;
             break;
 
         case MPILogLevelVerbose:
             apptentiveConfig.logLevel = ApptentiveLogLevelVerbose;
+            apptentiveConfig.shouldSanitizeLogMessages = false;
             break;
     }
 
