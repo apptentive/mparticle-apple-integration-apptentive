@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "mParticle-Apptentive",
-    platforms: [ .iOS(.v13) ],
+    platforms: [ .iOS(.v15) ],
     products: [
         .library(
             name: "mParticle-Apptentive",
@@ -15,7 +15,7 @@ let package = Package(
       .package(url: "https://github.com/mParticle/mparticle-apple-sdk",
                .upToNextMajor(from: "8.22.0")),
       .package(url: "https://github.com/apptentive/apptentive-kit-ios",
-               .upToNextMajor(from: "6.6.0")),
+               .upToNextMajor(from: "7.0.0")),
     ],
     targets: [
         .target(

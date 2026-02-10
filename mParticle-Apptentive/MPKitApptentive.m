@@ -188,11 +188,7 @@ static NSString * _apptentiveSignature = nil;
 }
 
 - (MPKitExecStatus *)setDeviceToken:(NSData *)deviceToken {
-    // TODO: use `setRemoteNotificationToken` after next ApptentiveKit release (missing @objc annotation).
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    [Apptentive.shared setPushProvider:ApptentivePushProviderApptentive deviceToken:deviceToken];
-#pragma clang diagnostic pop
+    [Apptentive.shared setRemoteNotificationDeviceToken:deviceToken];
 
     return [self execStatus:MPKitReturnCodeSuccess];
 }
